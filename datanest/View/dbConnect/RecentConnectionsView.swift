@@ -12,9 +12,12 @@ struct RecentConnectionsView: View {
     @Query private var recentConnections: [DatabaseConnection]
     
     var body: some View {
-        List(recentConnections) { connection in
-            NavigationLink(destination: ConnectionDetailView(connection: connection)) {
-                Text(connection.name)
+        ZStack{
+            Color.secondaryBackground
+            List(recentConnections) { connection in
+                NavigationLink(destination: ConnectionDetailView(connection: connection)) {
+                    Text(connection.name)
+                }
             }
         }
     }

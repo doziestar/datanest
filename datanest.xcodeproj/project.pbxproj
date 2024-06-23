@@ -25,6 +25,8 @@
 		13CAD7AD2C2835800042D45C /* ConnectionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7AC2C2835800042D45C /* ConnectionFormView.swift */; };
 		13CAD7AF2C2838C90042D45C /* DBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7AE2C2838C90042D45C /* DBView.swift */; };
 		13CAD7B12C283E570042D45C /* formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7B02C283E530042D45C /* formatter.swift */; };
+		13CAD7B32C2886200042D45C /* DatabaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7B22C2886200042D45C /* DatabaseDetailView.swift */; };
+		13CAD7B52C2889ED0042D45C /* DatabaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7B42C2889ED0042D45C /* DatabaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		13CAD7AC2C2835800042D45C /* ConnectionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionFormView.swift; sourceTree = "<group>"; };
 		13CAD7AE2C2838C90042D45C /* DBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBView.swift; sourceTree = "<group>"; };
 		13CAD7B02C283E530042D45C /* formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatter.swift; sourceTree = "<group>"; };
+		13CAD7B22C2886200042D45C /* DatabaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseDetailView.swift; sourceTree = "<group>"; };
+		13CAD7B42C2889ED0042D45C /* DatabaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 				13CAD7A72C2834C60042D45C /* RecentConnectionsView.swift */,
 				13CAD7A92C2835080042D45C /* ConnectionView.swift */,
 				13CAD7AE2C2838C90042D45C /* DBView.swift */,
+				13CAD7B22C2886200042D45C /* DatabaseDetailView.swift */,
+				13CAD7B42C2889ED0042D45C /* DatabaseView.swift */,
 			);
 			path = dbConnect;
 			sourceTree = "<group>";
@@ -366,8 +372,10 @@
 				133905312C23A41600DDE8B5 /* navigationTypes.swift in Sources */,
 				13CAD7AA2C2835080042D45C /* ConnectionView.swift in Sources */,
 				13CAD7AF2C2838C90042D45C /* DBView.swift in Sources */,
+				13CAD7B32C2886200042D45C /* DatabaseDetailView.swift in Sources */,
 				13CAD79F2C2833AF0042D45C /* DBConnect.swift in Sources */,
 				13CAD7A62C28347F0042D45C /* DatabaseTypeButton.swift in Sources */,
+				13CAD7B52C2889ED0042D45C /* DatabaseView.swift in Sources */,
 				133904F62C2387D400DDE8B5 /* datanestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
