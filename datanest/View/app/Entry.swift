@@ -63,12 +63,15 @@ struct Sidebar: View {
     @Binding var selectedView: CustomNavigationViewType
     
     var body: some View {
-        List(CustomNavigationViewType.allCases, selection: $selectedView) { viewType in
-            NavigationLink(value: viewType) {
-                Label(viewType.title, systemImage: viewType.iconName)
+        ZStack{
+            Color.primaryBackground
+            List(CustomNavigationViewType.allCases, selection: $selectedView) { viewType in
+                NavigationLink(value: viewType) {
+                    Label(viewType.title, systemImage: viewType.iconName)
+                }
             }
+            .listStyle(SidebarListStyle())
         }
-        .listStyle(SidebarListStyle())
     }
 }
 
@@ -79,14 +82,18 @@ struct ContentView: View {
     @Binding var selectedConnection: DatabaseConnection?
     
     var body: some View {
-        switch selectedView {
-        case .databases:
-            DatabaseContentView(
-                selectedDatabaseType: $selectedDatabaseType,
-                selectedConnection: $selectedConnection
-            )
-        default:
-            Text("Select an item")
+        ZStack {
+            Color.secondaryBackground
+            switch selectedView {
+            case .databases:
+                DatabaseContentView(
+                    selectedDatabaseType: $selectedDatabaseType,
+                    selectedConnection: $selectedConnection
+                )
+            default:
+                Text("Select an item")
+            }
+
         }
     }
 }
