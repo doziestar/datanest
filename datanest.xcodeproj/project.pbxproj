@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		133904F62C2387D400DDE8B5 /* datanestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133904F52C2387D400DDE8B5 /* datanestApp.swift */; };
-		133904F82C2387D400DDE8B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133904F72C2387D400DDE8B5 /* ContentView.swift */; };
-		133904FA2C2387D400DDE8B5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133904F92C2387D400DDE8B5 /* Item.swift */; };
 		133904FC2C2387D600DDE8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133904FB2C2387D600DDE8B5 /* Assets.xcassets */; };
 		133905002C2387D600DDE8B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133904FF2C2387D600DDE8B5 /* Preview Assets.xcassets */; };
 		1339050A2C2387D600DDE8B5 /* datanestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133905092C2387D600DDE8B5 /* datanestTests.swift */; };
 		133905142C2387D600DDE8B5 /* datanestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133905132C2387D600DDE8B5 /* datanestUITests.swift */; };
 		133905162C2387D600DDE8B5 /* datanestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133905152C2387D600DDE8B5 /* datanestUITestsLaunchTests.swift */; };
+		133905292C238ED400DDE8B5 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133905282C238ED400DDE8B5 /* Entry.swift */; };
+		1339052B2C238F1200DDE8B5 /* swiftDataSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339052A2C238F0600DDE8B5 /* swiftDataSync.swift */; };
+		1339052F2C2398C000DDE8B5 /* QuickNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339052E2C2398C000DDE8B5 /* QuickNavigationView.swift */; };
+		133905312C23A41600DDE8B5 /* navigationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133905302C23A40F00DDE8B5 /* navigationTypes.swift */; };
+		13CAD79F2C2833AF0042D45C /* DBConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD79E2C2833AF0042D45C /* DBConnect.swift */; };
+		13CAD7A42C2834540042D45C /* DatabaseConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7A32C2834540042D45C /* DatabaseConnectionView.swift */; };
+		13CAD7A62C28347F0042D45C /* DatabaseTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7A52C28347F0042D45C /* DatabaseTypeButton.swift */; };
+		13CAD7A82C2834C60042D45C /* RecentConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7A72C2834C60042D45C /* RecentConnectionsView.swift */; };
+		13CAD7AA2C2835080042D45C /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7A92C2835080042D45C /* ConnectionView.swift */; };
+		13CAD7AD2C2835800042D45C /* ConnectionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7AC2C2835800042D45C /* ConnectionFormView.swift */; };
+		13CAD7AF2C2838C90042D45C /* DBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7AE2C2838C90042D45C /* DBView.swift */; };
+		13CAD7B12C283E570042D45C /* formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAD7B02C283E530042D45C /* formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +47,6 @@
 /* Begin PBXFileReference section */
 		133904F22C2387D400DDE8B5 /* datanest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datanest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		133904F52C2387D400DDE8B5 /* datanestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datanestApp.swift; sourceTree = "<group>"; };
-		133904F72C2387D400DDE8B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		133904F92C2387D400DDE8B5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		133904FB2C2387D600DDE8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133904FD2C2387D600DDE8B5 /* datanest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = datanest.entitlements; sourceTree = "<group>"; };
 		133904FF2C2387D600DDE8B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +55,18 @@
 		1339050F2C2387D600DDE8B5 /* datanestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datanestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133905132C2387D600DDE8B5 /* datanestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datanestUITests.swift; sourceTree = "<group>"; };
 		133905152C2387D600DDE8B5 /* datanestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datanestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		133905282C238ED400DDE8B5 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		1339052A2C238F0600DDE8B5 /* swiftDataSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDataSync.swift; sourceTree = "<group>"; };
+		1339052E2C2398C000DDE8B5 /* QuickNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNavigationView.swift; sourceTree = "<group>"; };
+		133905302C23A40F00DDE8B5 /* navigationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationTypes.swift; sourceTree = "<group>"; };
+		13CAD79E2C2833AF0042D45C /* DBConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBConnect.swift; sourceTree = "<group>"; };
+		13CAD7A32C2834540042D45C /* DatabaseConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConnectionView.swift; sourceTree = "<group>"; };
+		13CAD7A52C28347F0042D45C /* DatabaseTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTypeButton.swift; sourceTree = "<group>"; };
+		13CAD7A72C2834C60042D45C /* RecentConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentConnectionsView.swift; sourceTree = "<group>"; };
+		13CAD7A92C2835080042D45C /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		13CAD7AC2C2835800042D45C /* ConnectionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionFormView.swift; sourceTree = "<group>"; };
+		13CAD7AE2C2838C90042D45C /* DBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBView.swift; sourceTree = "<group>"; };
+		13CAD7B02C283E530042D45C /* formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,10 @@
 		133904F42C2387D400DDE8B5 /* datanest */ = {
 			isa = PBXGroup;
 			children = (
+				133905242C23882E00DDE8B5 /* Constant */,
+				133905232C23882800DDE8B5 /* View */,
+				133905222C23882000DDE8B5 /* Model */,
 				133904F52C2387D400DDE8B5 /* datanestApp.swift */,
-				133904F72C2387D400DDE8B5 /* ContentView.swift */,
-				133904F92C2387D400DDE8B5 /* Item.swift */,
 				133904FB2C2387D600DDE8B5 /* Assets.xcassets */,
 				133904FD2C2387D600DDE8B5 /* datanest.entitlements */,
 				133904FE2C2387D600DDE8B5 /* Preview Content */,
@@ -130,6 +151,79 @@
 				133905152C2387D600DDE8B5 /* datanestUITestsLaunchTests.swift */,
 			);
 			path = datanestUITests;
+			sourceTree = "<group>";
+		};
+		133905222C23882000DDE8B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1339052A2C238F0600DDE8B5 /* swiftDataSync.swift */,
+				13CAD79E2C2833AF0042D45C /* DBConnect.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		133905232C23882800DDE8B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13CAD7A22C2834290042D45C /* dbConnect */,
+				133905272C238BF900DDE8B5 /* app */,
+				133905262C238BC200DDE8B5 /* dashboard */,
+				133905252C238BB800DDE8B5 /* shared */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		133905242C23882E00DDE8B5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				13CAD7B02C283E530042D45C /* formatter.swift */,
+				133905302C23A40F00DDE8B5 /* navigationTypes.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		133905252C238BB800DDE8B5 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		133905262C238BC200DDE8B5 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1339052E2C2398C000DDE8B5 /* QuickNavigationView.swift */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		133905272C238BF900DDE8B5 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				133905282C238ED400DDE8B5 /* Entry.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		13CAD7A22C2834290042D45C /* dbConnect */ = {
+			isa = PBXGroup;
+			children = (
+				13CAD7AB2C2835650042D45C /* forms */,
+				13CAD7A32C2834540042D45C /* DatabaseConnectionView.swift */,
+				13CAD7A52C28347F0042D45C /* DatabaseTypeButton.swift */,
+				13CAD7A72C2834C60042D45C /* RecentConnectionsView.swift */,
+				13CAD7A92C2835080042D45C /* ConnectionView.swift */,
+				13CAD7AE2C2838C90042D45C /* DBView.swift */,
+			);
+			path = dbConnect;
+			sourceTree = "<group>";
+		};
+		13CAD7AB2C2835650042D45C /* forms */ = {
+			isa = PBXGroup;
+			children = (
+				13CAD7AC2C2835800042D45C /* ConnectionFormView.swift */,
+			);
+			path = forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +356,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133904F82C2387D400DDE8B5 /* ContentView.swift in Sources */,
-				133904FA2C2387D400DDE8B5 /* Item.swift in Sources */,
+				13CAD7B12C283E570042D45C /* formatter.swift in Sources */,
+				13CAD7AD2C2835800042D45C /* ConnectionFormView.swift in Sources */,
+				13CAD7A42C2834540042D45C /* DatabaseConnectionView.swift in Sources */,
+				1339052F2C2398C000DDE8B5 /* QuickNavigationView.swift in Sources */,
+				133905292C238ED400DDE8B5 /* Entry.swift in Sources */,
+				13CAD7A82C2834C60042D45C /* RecentConnectionsView.swift in Sources */,
+				1339052B2C238F1200DDE8B5 /* swiftDataSync.swift in Sources */,
+				133905312C23A41600DDE8B5 /* navigationTypes.swift in Sources */,
+				13CAD7AA2C2835080042D45C /* ConnectionView.swift in Sources */,
+				13CAD7AF2C2838C90042D45C /* DBView.swift in Sources */,
+				13CAD79F2C2833AF0042D45C /* DBConnect.swift in Sources */,
+				13CAD7A62C28347F0042D45C /* DatabaseTypeButton.swift in Sources */,
 				133904F62C2387D400DDE8B5 /* datanestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +532,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DataNest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,6 +573,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DataNest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
